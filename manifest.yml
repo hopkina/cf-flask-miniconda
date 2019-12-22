@@ -1,0 +1,7 @@
+---
+applications:
+- name: flask_conda_test
+  memory: 512M
+  disk_quota: 1.5GB
+  path: .
+  buildpack: python_buildpack
